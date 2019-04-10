@@ -20,5 +20,5 @@ function distanceTravelledInFeet(start, destination){
 
 {
         return (destination - start) * 264;
-        
-} 
+
+}
