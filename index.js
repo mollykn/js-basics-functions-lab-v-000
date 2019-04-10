@@ -7,3 +7,7 @@ function distanceFromHqInBlocks(blockNumber) {
           return 42 - blockNumber; 
     }
 }
+
+function distanceFromHqInFeet(blockNumber){
+      return distanceFromHqInBlocks(blockNumber) * 264;
+}
